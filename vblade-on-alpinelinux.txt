@@ -1,0 +1,9 @@
+apk add linux-headers
+apk add libstdc++
+apk add libc-dev
+apk add gcc
+apk add make
+apk add git
+git clone https://github.com/OpenAoE/vblade
+cd vblade make 
+make install
